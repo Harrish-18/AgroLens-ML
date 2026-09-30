@@ -1,0 +1,9 @@
+.venv/
+app/
+data/
+dataset/
+src/
+tests/
+*.pyc
+__pycache__/
+.vscode/

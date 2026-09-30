@@ -1,0 +1,52 @@
+{
+    "algorithm": "AWLA v2",
+    "description": "Data-driven feature weighting with learned direction and robust normalization.",
+    "features": [
+        "color",
+        "texture",
+        "shape",
+        "size",
+        "defect"
+    ],
+    "weights": {
+        "color": 0.06149865314364433,
+        "texture": 0.32173943519592285,
+        "shape": 0.01840934529900551,
+        "size": 0.32554805278778076,
+        "defect": 0.27280449867248535
+    },
+    "coefficients": {
+        "color": -1.95054292678833,
+        "texture": -10.204557418823242,
+        "shape": 0.5838862657546997,
+        "size": -10.325355529785156,
+        "defect": -8.652496337890625
+    },
+    "feature_statistics": {
+        "color": {
+            "lower": 21.12242889404297,
+            "upper": 65.82427978515625,
+            "direction": "negative"
+        },
+        "texture": {
+            "lower": 39.27616500854492,
+            "upper": 84.79966735839844,
+            "direction": "negative"
+        },
+        "shape": {
+            "lower": 6.137947082519531,
+            "upper": 77.35284423828125,
+            "direction": "positive"
+        },
+        "size": {
+            "lower": 23.447795867919922,
+            "upper": 100.0,
+            "direction": "negative"
+        },
+        "defect": {
+            "lower": 24.74091148376465,
+            "upper": 99.77080535888672,
+            "direction": "negative"
+        }
+    }
+}
